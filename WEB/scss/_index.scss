@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(to right, black,grey)
+}
+
+.container-index{
+    background: linear-gradient(to right, black,grey);
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+p{margin-top: 2rem;}
+}
+
+body{
+    background: linear-gradient(to right, black,grey);
+    .carousel-inner{
+        height: 400px;
+    }
+    
+}
+.footer{
+    background: linear-gradient(to right, black,grey);
+    .Contenedor_descarga{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 10rem;
+        margin-top: 10rem;
+        color: white;
+        gap: 2rem;
+    }
+    
+    .footer-sm{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+       
+    }
+    .footer-sm a{
+        color: white;
+        opacity: 0,65;
+    }
+
+    .footer-sm_icons :hover{
+        opacity: 0.65;
+    }
+}
+@media screen and (min-width: 660px) {
+    body .titulo-invictus::after, body .titulo-invictus::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 3px;
+      background-color: yellow;
+      top: 0.6em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .titulo-invictus{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+ }
+.titulo-invictus::after,.titulo-invictus::before{
+    content:'';
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo-invictus::after{
+    right: -140px;
+}
+.titulo-invictus::before{
+    left: -140px;
+}

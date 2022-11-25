@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(to right, black, grey);
+  }
+  .body-sucursales {
+    background: linear-gradient(to right, black, #808080);
+    width: 100%;
+  }
+  .footer-sucursales {
+    background: linear-gradient(to right, black, grey);
+  }
+
+.titulo-sucursales{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+  .footer-sucursales .footer-sm-sucursales {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+  .footer-sucursales .footer-sm-sucursales a {
+    color: white;
+    opacity: 0, 65;
+  }
+  .footer-sucursales .footer-sm_icons-sucursales :hover {
+    opacity: 0.65;
+  }
+  
+  .container-sucursales{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+  .containerCard{
+    margin: 20px;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+.video{
+    width: 100%;
+    height: 500px;
+}
+@media screen and (min-width: 1220px) {
+.containerCard{
+  width: 30%;
+}  
+}

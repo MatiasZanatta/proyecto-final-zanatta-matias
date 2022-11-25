@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-nosotros{
+    background: linear-gradient(to right, black, gray);
+  }
+  .body-nosotros{
+    background: linear-gradient(to right, black, gray);
+    background-image: url(../IMAGENES/celu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-nosotros{
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footer-sm-nosotros {
+      color: white;
+      text-align: center;
+     text-transform: capitalize;
+     margin-top: 10rem;
+  }
+  
+  .footer-sm-nosotros a {
+      color: white;
+      
+    }
+  
+    .footer-sm-nosotros i {
+      font-size: 2rem;
+      margin-left: 1.5rem;
+      margin-top: 0%;
+    }
+  
+    .footer-sm_icons-nosotros {
+      text-align: center;
+    }
+  
+    .footer-sm_icons-nosotros :hover {
+      opacity: 0.65;
+    }
+  .titulo-nosotros{
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 900;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 5rem;
+  }
+  .parrafo-nosotros{
+    color: white;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+   padding: 2rem;
+  }
+  .Contenedor-nosotros{
+    padding-top: 8rem;
+  }
+  
